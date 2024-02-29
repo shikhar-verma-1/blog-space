@@ -26,7 +26,7 @@ textarea{
     height:150px;
     resize: none;
     max-width:80%;
-    font-size: 20px;
+    font-size:20px;
     padding:20px; 
 }
 
@@ -40,6 +40,5 @@ button{
     width:80%;
     border:1px solid red;
     padding: 0 20px;
-
 }
 
