@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    border:1px solid red;
+    padding:20px;
+}
+
+
+form{
+    display: flex;
+    flex-direction:column;
+    padding:20px;
+    gap:10px;
+}
+
+#title-input{
+    width:50%;
+    font-size:20px;
+    padding:20px;
+}
+
+textarea{
+    height:150px;
+    resize: none;
+    max-width:80%;
+    font-size: 20px;
+    padding:20px; 
+}
+
+button{
+    width:15%;
+    margin-top:20px;
+    padding:20px 30px;  
+}
+
+.blog-post-container{
+    width:80%;
+    border:1px solid red;
+    padding: 0 20px;
+
+}
+

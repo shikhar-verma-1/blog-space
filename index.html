@@ -7,6 +7,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <main>
+        <header>
+            <h1>blogSpace</h1>
+        </header>
+
+        <section>
+            <form>
+                <label for="title-input">Title:</label>
+                <input
+                    type="text"
+                    placeholder="Add title"
+                    name="title-input"
+                    id="title-input"   
+                >
+
+                <label for="post-input">Post:</label>
+                <textarea
+                    placeholder="Write post"
+                    name="post-input"
+                    id="post-input"   
+                ></textarea>
+                <button>Post</button>
+            </form>
+            <hr>
+        </section>
+
+        <section class="blog-post-container">
+            <div class="blog" id="blog">
+                <h2>Blog Title</h2>
+                <p>Blog content</p>
+            </div>
+        </section>
+
+    </main>    
     
     <script src="index.js"></script>
 </body>

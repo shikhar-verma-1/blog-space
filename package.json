@@ -1,0 +1,11 @@
+{
+  "name": "blogspace",
+  "version": "1.0.0",
+  "description": "project under learning APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "shikhar-verma",
+  "license": "ISC"
+}
